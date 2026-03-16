@@ -27,4 +27,4 @@ cmake --build build
 
 If `RiveQml` is not installed as a package, this project will automatically use a sibling checkout located at `../RiveQML`.
 
-On Linux, the current `RiveQml` backend is buildable for integration testing, but it does not render frames yet.
+The examples are validated on Linux as well as macOS. On Linux, the sibling `RiveQML` checkout now renders through the Skia raster backend.
